@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-            // 10. anejo de errores Se define la función showError para mostrar
+            // 10. manejo de errores Se define la función showError para mostrar
             // un mensaje de error si la llamada a la  API falla
             private fun showError(){
                 Toast.makeText(this, "Se ha producido un error, intentelo de nuevo", Toast.LENGTH_SHORT).show()
